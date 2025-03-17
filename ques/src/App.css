@@ -1,12 +1,21 @@
+*{
+  padding:0px;
+  margin:0px;
+
+}
 .container{
   display: grid;
-  grid-template-columns: repeat(autofit,minmax(300px,1fr));
+  grid-template-columns: repeat(3,1fr);
   gap:20px;
   padding: 20px;
+  justify-content: space-around;
   }
 
   .post-card{
     padding: 15px;
     border: 1px solid;
+    margin:20px;
     border-radius: 8px;
+    width:400px;
+    height:300px;
   }
