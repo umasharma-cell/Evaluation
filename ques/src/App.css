@@ -1,0 +1,12 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(autofit,minmax(300px,1fr));
+  gap:20px;
+  padding: 20px;
+  }
+
+  .post-card{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 8px;
+  }

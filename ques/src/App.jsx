@@ -4,10 +4,6 @@ import Card from './components/Card'
 
 function App() {
  
-
-  
- 
-
   return (
     <>
       <h1>Posts</h1>
